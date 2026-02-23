@@ -10,7 +10,7 @@ const observer = new IntersectionObserver((entries) => {
 }, observerOptions);
 
 document.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('section, .card, .hero-badge, h1, p').forEach(el => {
+    document.querySelectorAll('section, .card, .hero-badge, .promotion-badge, .sector-item, h1, p').forEach(el => {
         el.classList.add('animate');
         observer.observe(el);
     });
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Smooth scroll for navigation
     document.querySelectorAll('nav a').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
+        anchor.addEventListener('click', function (e) {
             const href = this.getAttribute('href');
             if (href.startsWith('#')) {
                 e.preventDefault();
