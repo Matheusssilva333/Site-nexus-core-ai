@@ -18,7 +18,7 @@ A Nexus Core AI não é apenas um chatbot. É uma plataforma de **Inteligência 
 - **Logo:** Hexágono tecnológico inspirado em núcleos de processamento de dados.
 
 ## 🌐 Domínio
-- Sugerido: `nexuscoreia.com.br`
+- `nexuscoreia.com.br`
 
 ---
 © 2026 Nexus Core AI.
